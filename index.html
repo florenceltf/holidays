@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Holidays</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon/favicon.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+
+    <header>
+        <div class="title">
+            <a href="#">
+                <h1>Holidays</h1>
+            </a>
+            <span>:</span>
+            <marquee>Currently in isolation</marquee>
+        </div>
+        <nav>
+            <a href="photo-index.html">Photo Index</a>, <a href="information.html">Information</a>
+        </nav>
+    </header>
+
+    <div class="slideshow-container">
+
+        <div class="slides fade" id="img-01" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">1</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-01.jpg" alt="maria-island"
+                style="height: 100%; width: 100%; object-fit: cover;">
+            <div class="cursor" id="cursor-img-01">Maria Island, Tasmania<br>Australia</div>
+        </div>
+
+        <div class="slides fade" id="img-02" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">2</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-02.jpg" alt="agra" style="height: 100%; width: 100%; object-fit: cover">
+            <div class="cursor" id="cursor-img-02">Agra, Rajasthan<br>India</div>
+        </div>
+
+        <div class="slides fade" id="img-03" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">3</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-03.jpg" alt="shanghai"
+                style="height: 100%; width: 100%; object-fit: cover">
+            <div class="cursor" id="cursor-img-03">Dumplings in Shanghai<br>China</div>
+        </div>
+
+
+        <div class="slides fade" id="img-04" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">4</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-04.jpg" alt="udawalawa"
+                style="height: 100%; width: 100%; object-fit: cover">
+            <div class="cursor" id="cursor-img-04">Udawalawa National Park<br>Sri Lanka</div>
+        </div>
+
+        <div class="slides fade" id="img-05" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">5</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-05.jpg" alt="hitachi" style="height: 100%; width: 100%; object-fit: cover">
+            <div class="cursor" id="cursor-img-05">Hitachi Seaside Park,Tokyo<br>Japan</div>
+        </div>
+
+        <div class="slides fade" id="img-06" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">6</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-06.jpg" alt="jeju-island"
+                style="height: 100%; width: 100%; object-fit: cover">
+            <div class="cursor" id="cursor-img-06">Mt. Hallasan, Jeju Island<br>South Korea</div>
+        </div>
+
+        <div class="slides fade" id="img-07" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">7</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-07.jpg" alt="florence"
+                style="height: 100%; width: 100%; object-fit: cover">
+            <div class="cursor" id="cursor-img-07">Galleria dell'Accademia, <br>Florence, Italy</div>
+        </div>
+
+        <div class="slides fade" id="img-08" onclick="plusSlides(1)">
+            <div class="counter">
+                <div class="counter-number">8</div>
+                <div class="">out of</div>
+                <div class="counter-total">8</div>
+            </div>
+            <img src="images/slideshow/image-08.jpg" alt="lausanne"
+                style="height: 100%; width: 100%; object-fit: cover">
+            <div class="cursor" id="cursor-img-08">Lake Geneva, Lausanne<br>Switzerland</div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
